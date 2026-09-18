@@ -1,6 +1,6 @@
 // Service worker: guarda la app en el dispositivo para que abra al instante y funcione sin cobertura.
 // Los datos no pasan por aquí (Firestore tiene su propia caché).
-const VERSION = 'fp-v1';
+const VERSION = 'fp-v2';
 const APP = ['./', 'index.html', 'css/app.css', 'js/app.js', 'js/store.js', 'js/config.js', 'js/pdf.js', 'js/util.js', 'js/importar.js',
   'img/logo.png', 'img/icon-192.png', 'img/icon-512.png', 'img/icon-180.png', 'manifest.webmanifest'];
 
